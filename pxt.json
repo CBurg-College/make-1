@@ -1,5 +1,5 @@
 {
-    "name": "MAKE-1",
+    "name": "make-1",
     "description": "",
     "dependencies": {
         "core": "*",
