@@ -98,16 +98,11 @@ ButtonPad.onButton(Pad.TopRight, function () {
     Game.stopGame()
 })
 
-ButtonPad.onButton(Pad.TopRight, function () {
-    ETscore = 0
-    Game.stopGame()
-})
-
 //% color="#00CC00" icon="\uf1f9"
 //% block="Kat en Muis"
 namespace KatEnMuis {
-    // block="start the game"
-    // block.loc.nl="start het spel"
+    //% block="start the game"
+    //% block.loc.nl="start het spel"
     export function start() {
         Game.startGame()
     }
